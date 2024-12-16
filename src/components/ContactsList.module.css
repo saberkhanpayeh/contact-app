@@ -1,0 +1,56 @@
+.container{
+    width:100%;
+    margin-bottom: 100px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+.container h3{
+    color:#304ffe;
+    font-size: 1.5rem;
+}
+
+.contacts{
+    border:2px solid #f5f5f5;
+    list-style: none;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 15px;
+}
+.message{
+    background-color: #f5f5f5;
+    height:100px;
+    list-style: 100px;
+    text-align:center;
+    margin-top: 20px;
+    border-radius:20px;
+    color:#6b6b6f;
+    font-size:1.2rem;
+    font-weight: 500;
+}
+.header button{
+    /* width: 50px;
+    height: 50px; */
+    font-size: 1.5rem;
+    /* background-color: #fff; */
+    background-color: inherit;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;  
+    
+}
+
+
+.btn{
+    
+}
+.selected{
+   background-color: #fe5d42; 
+   border-radius: 20px;
+   width: 80px;
+   text-align: center;
+   
+}
